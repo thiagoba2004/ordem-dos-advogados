@@ -1,0 +1,109 @@
+# Teste de recebimento operacional — Gate B8
+## PRJ-000008 — Ordem dos Advogados
+
+**Data da verificação:** 10/10/2026  
+**Classificação:** documento público de auditoria documental; sem dados pessoais privados ou conteúdo S2+  
+**Natureza institucional:** pesquisa independente e **não oficial** sobre a OAB  
+**Repositório canônico:** [thiagoba2004/ordem-dos-advogados](https://github.com/thiagoba2004/ordem-dos-advogados)  
+**Branch verificada:** `main`  
+**HEAD observado no teste inicial:** [`81a88133f15f95a8ef53c9c4e6868d238ef5265c`](https://github.com/thiagoba2004/ordem-dos-advogados/commit/81a88133f15f95a8ef53c9c4e6868d238ef5265c)  
+**Pedido para persistir este relatório:** `REQ-000008-20261010-003`  
+**Estratégia preservada:** `EA-000008-000002`  
+**Fase preservada:** `F-000008-000002-004`
+
+> **Diagnóstico documental do Gate B8:** leitura GitHub comprovada; configuração C3 e vínculo técnico ao Projeto ChatGPT não atestados por esta verificação; recibo de handoff aceito não encontrado/não produzido. **HANDOFF_NOT_ACCEPTED**. Este relatório não constitui aceite do handoff e não promove a Estratégia.
+
+### 1. Objetivo, método e limites
+
+Este teste atende ao pedido de leitura operacional do PRJ-000008 e ao pedido subsequente de salvar o resultado no GitHub. A verificação ocorreu por acesso conectado ao GitHub, por leitura da branch `main`, com recuperação dos arquivos governantes, logs, plano de fases e fontes do site. A persistência documental não equivale a implantação de GitHub Pages nem a aceite de integração C3.
+
+Escopo do teste: leitura de documentos, reconstrução do estado da Estratégia, inspeção de metadados do repositório e verificação de existência dos arquivos-fonte. Não foi executada auditoria integral do histórico Git, inspeção de páginas renderizadas, teste mobile, autenticação do contexto C3 ou aceite de handoff.
+
+### 2. Identidade, missão e independência
+
+O projeto é `PRJ-000008`, chamado **Ordem dos Advogados**, com origem documental no Kernel `1.11`. Sua missão, constituída em 10/10/2026, consiste em pesquisar e sistematizar a Ordem dos Advogados do Brasil (OAB), com atenção a:
+
+- organização institucional, órgãos, competências e relações institucionais;
+- Estatuto da Advocacia e da OAB (Lei nº 8.906/1994), Regulamento Geral, Código de Ética e Disciplina e provimentos, com verificação de versão e vigência;
+- ética e disciplina profissional, competências e garantias procedimentais;
+- prerrogativas da advocacia, distinguindo texto normativo, fato, interpretação e controvérsia.
+
+O PRJ-000008 é **independente, não oficial**, sem representação, afiliação, certificação ou endosso da OAB. Não é filial, subseção ou extensão do `PRJ-000007`. Comparações com aquele domínio dependem de remissão explícita e evidência própria; nenhum regime jurídico externo é automaticamente transplantado.
+
+### 3. Evidência de leitura no GitHub
+
+| Fonte lida | Evidência observada |
+| --- | --- |
+| [`AGENTS.md`](../AGENTS.md) | Identidade `PRJ-000008`, Kernel `1.11`, precedência de arquivos persistidos, regras de registro, Gate de executores e separação entre fonte Git e site publicado. |
+| [`MISSAO_E_ESCOPO.md`](../MISSAO_E_ESCOPO.md) | Mandato `REQ-000008-20261010-001`, missão OAB e autonomia perante `PRJ-000007`. |
+| [`POLITICA_FONTES_E_PUBLICACAO.md`](../POLITICA_FONTES_E_PUBLICACAO.md) | Primazia de fontes oficiais e datadas; pesquisa auditável; proibição de S2+, segredos e dados privados em GitHub público. |
+| [`PROJECT_STATE.json`](../PROJECT_STATE.json) | Estratégia corrente `EA-000008-000002`, F04, status `BLOCKED_ADMIN_CONFIGURATION_REQUIRED`, site `NOT_VERIFIED_NOT_ACTIVATED`. |
+| [`ROADMAP.md`](../ROADMAP.md) | EA-000008-000001 concluída documentalmente; EA-000008-000002 em progresso; F04 dependente de administração Pages e F05 não iniciada. |
+| [`REQUEST_LOG.jsonl`](../REQUEST_LOG.jsonl) | Pedidos `REQ-000008-20261010-001` e `002`; registro adicional `REQ-000008-20261010-003` autorizado para persistência deste relatório, sem mudança de estratégia. |
+| [`STRATEGY_LOG.jsonl`](../STRATEGY_LOG.jsonl) | Encerramento da EA-000008-000001 e evento `WEB-002` de preparação da fonte, apontando F04 bloqueada. |
+| [Plano `EA-000008-000002`](../estrategias/EA-000008-000002-site-publico-fontes.md) | Cinco fases e gates, autorização de GitHub Pages a partir de `main/docs`, limites e ausência de nova despesa. |
+| [Auditoria da fonte do site](EA-000008-000002-verificacao-fonte-site.md) | Resultado `SITE_SOURCE_STAGED_IN_GITHUB=VERIFIED`; inspeção documental dos quatro Markdown; não certifica deploy. |
+| [Catálogo de ações por executor](../governanca/EXECUTOR_ACTION_CATALOG.json) | `PROJECT_CANONICAL_WRITING` atribuído ao `CHAT`; ações não listadas são bloqueadas. |
+
+Arquivos adicionais recuperados: [`SITE_ARCHITECTURE.md`](../SITE_ARCHITECTURE.md), [`SITE_STYLE_GUIDE.md`](../SITE_STYLE_GUIDE.md), [`INFORMATION_HANDLING_PROFILE.json`](../INFORMATION_HANDLING_PROFILE.json) e [`docs/index.md`](../docs/index.md), [`docs/eixos.md`](../docs/eixos.md), [`docs/fontes.md`](../docs/fontes.md) e [`docs/sobre.md`](../docs/sobre.md).
+
+### 4. Estratégia ativa e fases
+
+**Estratégia:** `EA-000008-000002 — Site público próprio e acervo inicial de fontes — Ordem dos Advogados`  
+**Autorização humana:** `REQ-000008-20261010-002`  
+**Estado estratégico:** `EM_EXECUCAO`  
+**Fase corrente:** `F-000008-000002-004`  
+**Estado da fase:** `BLOCKED_ADMIN_CONFIGURATION_REQUIRED`
+
+| Fase | Escopo | Situação documental |
+| --- | --- | --- |
+| F01 | Mandato, fontes e segurança | Realizada |
+| F02 | Arquitetura e conteúdo | Preparada |
+| F03 | Quatro páginas Markdown e acervo inicial em GitHub | `SITE_SOURCE_STAGED_IN_GITHUB` (concluída no escopo documental) |
+| F04 | Habilitar GitHub Pages de `main/docs` | **Bloqueada**, configuração administrativa necessária |
+| F05 | Comprovar HTTP, navegação, links, segurança e aceite | **Não iniciada** |
+
+A EA-000008-000001 está concluída apenas no escopo de **constituição documental pública**. A EA-000008-000002 permanece vigente; não há justificativa para substituí-la.
+
+### 5. Estado de implantação do site
+
+- **Repositório público:** confirmado por metadados do GitHub (`private=false`, branch padrão `main`).
+- **Fonte versionada:** `docs/index.md`, `docs/eixos.md`, `docs/fontes.md` e `docs/sobre.md` presentes em `main`.
+- **Acervo inicial:** cinco referências institucionais identificadas em `docs/fontes.md`. Não constitui revisão exaustiva de vigência ou conclusão de pesquisa jurídica substantiva.
+- **GitHub Pages:** metadados atuais do repositório retornaram `has_pages=false` em 10/10/2026.
+- **URL pública certificada:** `null` no `PROJECT_STATE.json`; publicação HTTP e navegação **não verificadas** nesta execução.
+- **Gate de F04:** `PAGES_PUBLISHING_SOURCE_CONFIRMED` **não satisfeito**.
+- **Gate de F05:** `PUBLIC_SITE_VERIFIED` **não satisfeito**.
+
+Nenhum endereço presumido deve ser apresentado como site ativo. Não foi habilitado Pages nem executado deploy nesta operação.
+
+### 6. Pendências e próxima ação
+
+1. Responsável administrativo: acessar [Settings → Pages](https://github.com/thiagoba2004/ordem-dos-advogados/settings/pages) e selecionar **Deploy from a branch → main → /docs → Save**.
+2. Após a configuração, conferir o estado do deployment Pages e a URL HTTP efetiva.
+3. Validar navegação entre Início, Eixos, Fontes e Sobre; integridade de links e referências; legibilidade, uso em dispositivos móveis, ausência de dados privados e natureza não oficial.
+4. Somente mediante evidência de configuração e testes, decidir sobre os gates F04/F05 e atualizar estado/logs por autorização e executor aplicáveis.
+5. Pesquisa substantiva sobre normas, órgãos e competências da OAB continua pendente de delimitação e verificação de fontes.
+
+### 7. Matriz de aceite — Gate B8
+
+| Requisito | Diagnóstico |
+| --- | --- |
+| Conexão e leitura do repositório canônico | `VERIFIED` |
+| Leitura de AGENTS, missão, política, estado, roadmap e logs | `VERIFIED` |
+| Recuperação da EA e do plano de fases | `VERIFIED` |
+| Identidade OAB independente de PRJ-000007 | `VERIFIED` |
+| Comprovação técnica de que a conversa está vinculada ao Projeto ChatGPT esperado | `NOT_VERIFIED` |
+| Comprovação técnica da memória `C3` exclusiva do Projeto | `NOT_VERIFIED` |
+| Recibo de handoff formalmente aceito | `NOT_VERIFIED` |
+| Gate B8 — aceite integral do handoff | `NOT_ACCEPTED` |
+
+**Resultado analítico:** `PARTIAL_VERIFIED — HANDOFF_NOT_ACCEPTED`. Esta classificação é um diagnóstico desta auditoria; **não** constitui alteração do estado oficial do Projeto, novo gate aprovado nem recibo de handoff aceito.
+
+### 8. Preservação e autorização da persistência
+
+A escrita deste relatório foi solicitada expressamente pelo usuário em 10/10/2026: **“Salve no GitHub e envie o caminho.”** O pedido foi registrado em `REQUEST_LOG.jsonl` sob `REQ-000008-20261010-003` e sua persistência foi confirmada por leitura posterior. O catálogo local atribui `PROJECT_CANONICAL_WRITING` a `CHAT`, em conformidade com a redação e publicação documental Markdown autorizada no `AGENTS.md`.
+
+O documento permanece em `auditorias/`, fora de `docs/`; não altera páginas do site, configurações de Pages, `PROJECT_STATE.json`, `ROADMAP.md`, `STRATEGY_LOG.jsonl` ou plano vigente. Nenhuma nova Estratégia, nova despesa, aceitação de handoff, liberação de F04/F05 ou publicação HTTP foi declarada.
+
+**Limite do recibo:** este arquivo documenta a auditoria e sua persistência no GitHub. Não substitui a comprovação independente de vínculo ao Projeto ChatGPT, do isolamento de memória C3, de aceite humano/operacional do handoff ou da efetiva implantação de GitHub Pages.
