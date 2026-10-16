@@ -42,3 +42,7 @@ persistida. Até essa reconciliação, o estado substantivo permanece
 - **F05/05:** verificar URL pública, conteúdo servido, links e exclusão de dados sensíveis — **NÃO INICIADA**.
 
 **Proveniência:** 5 referências iniciais oficiais identificadas, sem reivindicação de exaustividade ou revisão completa de vigência. **Sem construção de interface customizada nem gasto novo.** O site não deve ser apresentado como publicado antes de evidência de Pages + HTTP.
+
+## EA-000008-000003 — SCIV Essencial Sob Demanda (15/10/2026)
+
+Pedido REQ-000008-20261015-005; mandato global REQ-GLOBAL-20261011-001, F006 ACT009. Plano estrategias/EA-000008-000003-sciv-sob-demanda.md; matriz estrategias/EA-000008-000003-actions.json; preflight auditorias/EA-000008-000003-preflight-sciv-2026-10-15.md; handoff handoffs/codex/EA-000008-000003-SCIV-F002-F004.md. **F001 local criada, registro dual global pendente** neste checkpoint. F002–F004 são CODEX local, F005 HUMAN/CHAT, F006 CHAT. Site EA-000008-000002 permanece principal F004 BLOCKED_ADMIN_CONFIGURATION_REQUIRED por Pages, docs/ não alterado. SCIV ON_DEMAND enabled=false e **não provisionado** nesta F001, B8/C3/instalação nativa/symlink físico não atestados; sem uso operacional, gasto novo ou mensagem automática.
