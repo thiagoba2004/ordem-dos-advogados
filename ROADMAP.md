@@ -46,3 +46,7 @@ persistida. Até essa reconciliação, o estado substantivo permanece
 ## EA-000008-000003 — SCIV Essencial Sob Demanda (15/10/2026)
 
 Pedido REQ-000008-20261015-005; mandato global REQ-GLOBAL-20261011-001, F006 ACT009. Plano estrategias/EA-000008-000003-sciv-sob-demanda.md; matriz estrategias/EA-000008-000003-actions.json; preflight auditorias/EA-000008-000003-preflight-sciv-2026-10-15.md; handoff handoffs/codex/EA-000008-000003-SCIV-F002-F004.md. **F001 local criada, registro dual global pendente** neste checkpoint. F002–F004 são CODEX local, F005 HUMAN/CHAT, F006 CHAT. Site EA-000008-000002 permanece principal F004 BLOCKED_ADMIN_CONFIGURATION_REQUIRED por Pages, docs/ não alterado. SCIV ON_DEMAND enabled=false e **não provisionado** nesta F001, B8/C3/instalação nativa/symlink físico não atestados; sem uso operacional, gasto novo ou mensagem automática.
+
+### Checkpoint F001 SCIV — Registro dual verificado (15/10/2026)
+
+F001 SCIV_ADMISSAO_REGISTRADA = PASS_DOCUMENTARY_DUAL_GITHUB_READBACK: criação local 012bac1fcac53f426b04b1a3a82e4c8c5d7a748d; índice global 93f041df9a514c19a03cb612eb11fb9cced5f9e1; relatório auditorias/EA-000008-000003-F001-registro-dual-2026-10-15.md. Próxima F002 ACT-002 CODEX Local no PRJ-000008, sem substituir executor. SCIV enabled=false, Site EA-000008-000002 principal bloqueado por Pages, sem alteração docs/; F002–F006 não executadas, segurança de symlink e C3/B1/B8 não verificados.

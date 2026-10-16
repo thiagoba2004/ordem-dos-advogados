@@ -34,13 +34,17 @@
         "Não executar CODEX/HUMAN por CHAT; nenhum B8/C3/PEP live presumido",
         "Registrar pedido e CREATED, readback local e registro dual global antes do aceite"
       ],
-      "verification": "Gate com evidência e readback proporcional, PASS/FAIL/ERROR/SKIP separados e limites declarados",
+      "verification": "G0 GitHub readback local main 012bac1: 8 arquivos, CREATED/pedido/plano 6 fases/matriz 7 ações; G0 main 93f041d: uma entrada EA-000008-000003, source_version local idêntica. SCIV enabled=false; F002-F006 não realizados, Site preservado.",
       "completion_gate": "SCIV_ADMISSAO_REGISTRADA",
       "fallback": "BLOCKED/WAITING_HUMAN_ACTION sem mudança de executor",
       "on_block": "Registrar impedimento/owner e prosseguir só em ações independentes",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
-      "status": "IN_PROGRESS_DUAL_PENDING"
+      "status": "VERIFIED",
+      "verified_scope": "F001_DOCUMENTARY_DUAL_GITHUB_READBACK_ONLY",
+      "global_registry_commit": "93f041df9a514c19a03cb612eb11fb9cced5f9e1",
+      "local_registration_commit": "012bac1fcac53f426b04b1a3a82e4c8c5d7a748d",
+      "evidence_ref": "auditorias/EA-000008-000003-F001-registro-dual-2026-10-15.md"
     },
     {
       "action_key": "ACT-000008-000003-002",

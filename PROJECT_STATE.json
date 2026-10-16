@@ -95,10 +95,10 @@
     "action_plan_ref": "estrategias/EA-000008-000003-actions.json",
     "source_request_id": "REQ-000008-20261015-005",
     "authorization_ref": "REQ-GLOBAL-20261011-001",
-    "status": "F001_LOCAL_CREATED_DUAL_PENDING",
-    "current_phase": "F-000008-000003-001",
-    "next_action": "ACT-000008-000003-001",
-    "next_executor": "CHAT_G0",
+    "status": "F001_SCIV_ADMISSAO_REGISTRADA_VERIFIED_DOCUMENTARY_F002_CODEX_NEXT",
+    "current_phase": "F-000008-000003-002",
+    "next_action": "ACT-000008-000003-002",
+    "next_executor": "CODEX_LOCAL_PRJ000008",
     "mode": "ON_DEMAND",
     "enabled": false,
     "opt_in_authorized": true,
@@ -113,9 +113,14 @@
     "site_ea_preserved": "EA-000008-000002",
     "site_pages_gate": "BLOCKED_ADMIN_CONFIGURATION_REQUIRED",
     "site_publication_unchanged": true,
-    "dual_registry_verified": false,
+    "dual_registry_verified": true,
     "preflight_ref": "auditorias/EA-000008-000003-preflight-sciv-2026-10-15.md",
-    "blocker": "DUAL_GLOBAL_REGISTRY_PENDING;PHYSICAL_SYMLINK_NOT_VERIFIED;NATIVE_UI_NOT_VERIFIED",
-    "next_logical_step": "G0 readback of local EA, then dual registry; after F001 use CODEX Local PRJ000008 for F002-F004."
+    "blocker": "CODEX_LOCAL_F002_F004_NOT_EXECUTED;NATIVE_B8_AND_PHYSICAL_SECURITY_NOT_VERIFIED",
+    "next_logical_step": "Use Codex Local no repositório PRJ-000008 para F002-F004 sob gates próprios; nenhuma ativação SCIV. A G0 deverá reconciliar readback do resultado técnico.",
+    "last_completed_phase": "F-000008-000003-001",
+    "last_completed_gate": "SCIV_ADMISSAO_REGISTRADA",
+    "global_registry_commit": "93f041df9a514c19a03cb612eb11fb9cced5f9e1",
+    "local_registration_commit": "012bac1fcac53f426b04b1a3a82e4c8c5d7a748d",
+    "local_f001_receipt_ref": "auditorias/EA-000008-000003-F001-registro-dual-2026-10-15.md"
   }
 }

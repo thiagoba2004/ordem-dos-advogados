@@ -14,3 +14,7 @@ EA-000008-000001 foi concluída documentalmente. **EA-000008-000002 continua pri
 
 ## Matriz e segurança
 Sete ações tipadas estão em estrategias/EA-000008-000003-actions.json; F001 CHAT, F002–F004 CODEX, F005 HUMAN e CHAT, F006 CHAT. Sem substituição de executor. Apenas S0/S1 revisado no Git público, proibidos S2+, dados pessoais não públicos, material sigiloso, credenciais e gasto novo. Sem polling, cron, webhooks, Pages, ativação SCIV, instalação nativa, C3/B1/B8 presumidos ou PEP live. **Testes físicos de symlink necessários para liberação operacional; SKIP não equivale a PASS.** F002 só após F001 dual com readback e autorização própria de CODEX. Handoff: handoffs/codex/EA-000008-000003-SCIV-F002-F004.md.
+
+## Checkpoint F001 — registro dual verificado em 15/10/2026
+
+G0 confirmou os commits de registro local `012bac1fcac53f426b04b1a3a82e4c8c5d7a748d` e global `93f041df9a514c19a03cb612eb11fb9cced5f9e1`, com readback de ambas as fontes. `ACT-000008-000003-001=VERIFIED_DOCUMENTARY_DUAL`; gate `SCIV_ADMISSAO_REGISTRADA=PASS` somente documental, sem operação SCIV. Recibo: `auditorias/EA-000008-000003-F001-registro-dual-2026-10-15.md`. F002 passa a próximo executor CODEX Local PRJ-000008; F003/F004 CODEX pendentes, F005 HUMAN e F006 CHAT/contexto pendentes. Site EA-000008-000002 permanece principal e bloqueado por Pages; SCIV desabilitado.
