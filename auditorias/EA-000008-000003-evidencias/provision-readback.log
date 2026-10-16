@@ -1,0 +1,36 @@
+{
+  "stage": "APPLIED_READBACK_IDEMPOTENT",
+  "enabled": false,
+  "manifest": {
+    "comunicados/SCIV_STATE.json": {
+      "sha256": "f26459e0b342bfaeae4af10de491d3d10c69763a1571970d02a1a59981425839",
+      "bytes": 527,
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    "comunicados/governanca-geral/mensagens/README.md": {
+      "sha256": "4ae272d50bc2a0f30929f219ee0c9e0c5ef398799805672b41cbbfdb914795c1",
+      "bytes": 597,
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    "comunicados/governanca-geral/historico/README.md": {
+      "sha256": "127f64c7abcaf9df3434f4b8b8e0e81ee1aaca4aeeca620d91007156f17ee46b",
+      "bytes": 597,
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    "comunicados/ia-especializada/mensagens/README.md": {
+      "sha256": "9ef67417d9956068aa8f2b33d54051ada7e88eb3628f60403357e279938a4b3e",
+      "bytes": 597,
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    "comunicados/ia-especializada/historico/README.md": {
+      "sha256": "60beccfe94ae6c4b0f6b23e496f641103da2cf93bba838dd867d4dfeffcb7709",
+      "bytes": 597,
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    },
+    "adaptadores/chatgpt/INSTRUCOES.md": {
+      "sha256": "906fcfa58b92ade30afcb46f50dfb6adf1e6dd3d387ab5cfd60118a97650b5ba",
+      "bytes": 6621,
+      "classification": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+    }
+  }
+}

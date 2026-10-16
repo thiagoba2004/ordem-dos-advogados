@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "project_code": "PRJ-000008",
+  "repository": "thiagoba2004/ordem-dos-advogados",
+  "strategy_code": "EA-000008-000003",
+  "mode": "ON_DEMAND",
+  "enabled": false,
+  "operational_ref": "main",
+  "inbox": "comunicados/governanca-geral/mensagens",
+  "outbox": "comunicados/ia-especializada/mensagens",
+  "operational_activation_allowed": false,
+  "native_installation": "NOT_VERIFIED",
+  "B8_accepted": false,
+  "real_behavior_verified": false,
+  "authorization_ref": "REQ-000008-20261016-006"
+}

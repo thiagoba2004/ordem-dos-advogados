@@ -1,0 +1,146 @@
+{
+  "filesystem": {
+    "exit_code": 0,
+    "status": "PASS_WITH_SKIPS",
+    "counts": {
+      "PASS": 8,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 1
+    },
+    "command": [
+      "python",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tools",
+      "-p",
+      "test_sciv_disabled_provision.py",
+      "-v"
+    ]
+  },
+  "generator-regression": {
+    "exit_code": 0,
+    "status": "PASS",
+    "counts": {
+      "PASS": 97,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "command": [
+      "python",
+      "-B",
+      "-m",
+      "unittest",
+      "test_project_creation_gate",
+      "test_legacy_bootstrap_gate",
+      "test_validate_execution_action_plan",
+      "test_sciv_bootstrap",
+      "-v"
+    ]
+  },
+  "sciv-regression": {
+    "exit_code": 0,
+    "status": "PASS_WITH_SKIPS",
+    "counts": {
+      "PASS": 158,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 1
+    },
+    "command": [
+      "python",
+      "-B",
+      "-m",
+      "unittest",
+      "test_sciv_mailbox",
+      "test_sciv_essential",
+      "test_sciv_archive",
+      "test_sciv_per_project",
+      "test_sciv_publication",
+      "test_sciv_security",
+      "-v"
+    ]
+  },
+  "current-matrix": {
+    "exit_code": 0,
+    "status": "PASS",
+    "counts": {
+      "PASS": 0,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "command": [
+      "python",
+      "-B",
+      "<GENERATOR>\\tools\\validate_execution_action_plan.py",
+      "--project-root",
+      "<PROJECT>",
+      "--strategy-code",
+      "EA-000008-000003",
+      "--plan-ref",
+      "estrategias/EA-000008-000003-sciv-sob-demanda.md"
+    ]
+  },
+  "rota-b-sciv": {
+    "exit_code": 0,
+    "status": "PASS",
+    "counts": {
+      "PASS": 0,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "command": [
+      "python",
+      "-B",
+      "<GENERATOR>\\tools\\project_creation_gate.py",
+      "--project-root",
+      "<PROJECT>",
+      "--route",
+      "B",
+      "--gate",
+      "sciv"
+    ]
+  },
+  "provision-readback": {
+    "exit_code": 0,
+    "status": "PASS",
+    "counts": {
+      "PASS": 0,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "command": [
+      "python",
+      "-B",
+      "<PROJECT>\\tools\\sciv_disabled_provision.py",
+      "--generator",
+      "<GENERATOR>",
+      "--apply"
+    ]
+  },
+  "pep-offline": {
+    "exit_code": 0,
+    "status": "PASS",
+    "counts": {
+      "PASS": 12,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "command": [
+      "python",
+      "-B",
+      "-m",
+      "unittest",
+      "test_r2_pep_offline",
+      "-v"
+    ]
+  }
+}

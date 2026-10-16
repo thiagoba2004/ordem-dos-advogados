@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-16",
+  "source": "GITHUB_CONNECTOR_READBACK",
+  "dual_registry": {
+    "blob_sha": "fa1b028fe77f1d0c995e5422e33abd19c75437d5",
+    "ref": "93f041df9a514c19a03cb612eb11fb9cced5f9e1",
+    "entries": [
+      {
+        "repository": "thiagoba2004/ordem-dos-advogados",
+        "project_code": "PRJ-000008",
+        "project_namespace": "000008",
+        "namespace": "000008",
+        "strategy_id": "EA-000008-000003",
+        "strategy_code": "EA-000008-000003",
+        "mapping_status": "GLOBAL_STRATEGY_REGISTERED_LOCAL_PROOF",
+        "name": "Implantação SCIV Essencial Sob Demanda — Ordem dos Advogados",
+        "status": "F001_LOCAL_CREATED_DUAL_GITHUB_REGISTRATION",
+        "local_plan_ref": "estrategias/EA-000008-000003-sciv-sob-demanda.md",
+        "local_log_ref": "STRATEGY_LOG.jsonl",
+        "local_state_ref": "PROJECT_STATE.json",
+        "registered_at": "2026-10-15",
+        "source_version": "012bac1fcac53f426b04b1a3a82e4c8c5d7a748d",
+        "phase": "F-000008-000003-001",
+        "phase_total": 6,
+        "phase_status": "IN_PROGRESS_F001_GLOBAL_READBACK_PENDING",
+        "parent_strategy": "EA-000000-000034",
+        "global_action": "ACT-000000-000034-009",
+        "action_plan_ref": "estrategias/EA-000008-000003-actions.json",
+        "action_plan_coverage": "7 actions / 6 phases",
+        "wip": "EA000002_SITE_F004_PAGES_ADMIN_BLOCKED_PRESERVED_SCIV_PARALLEL",
+        "SCIV_enabled": false,
+        "SCIV_mode": "ON_DEMAND",
+        "mailboxes_provisioned": false,
+        "native_instructions_installed": false,
+        "B8_accepted": false,
+        "operational_activation_allowed": false,
+        "next_executor": "CHAT_G0_READBACK_DUAL_THEN_CODEX_LOCAL_PRJ000008",
+        "next_action": "ACT-000008-000003-001_DUAL_READBACK_THEN_F002",
+        "site_strategy": "EA-000008-000002",
+        "site_phase": "F-000008-000002-004",
+        "site_pages_unchanged": true,
+        "new_spending": false,
+        "preflight_ref": "auditorias/EA-000008-000003-preflight-sciv-2026-10-15.md",
+        "generator_profile_ref": "thiagoba2004/gerador-de-agents/profiles/ordem-dos-advogados.json",
+        "handoff_ref": "handoffs/codex/EA-000008-000003-SCIV-F002-F004.md"
+      }
+    ]
+  },
+  "global_action_matrix": {
+    "blob_sha": "3e331e373070d9259d4650f21b69ac29e33fbdcc",
+    "source": "https://github.com/thiagoba2004/governanca-geral-modelos-ia/blob/main/estrategias/EA-000000-000034-actions.json",
+    "action": {
+      "action_key": "ACT-000000-000034-010",
+      "phase_code": "F-000000-000034-006",
+      "description": "Integrar SCIV ON_DEMAND, caixas, testes técnicos e adaptador integral em PRJ-000008",
+      "result_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/ordem-dos-advogados/adaptadores/chatgpt/INSTRUCOES.md",
+      "accountable_owner": "PRJ-000008_ENGENHARIA",
+      "executor": "CODEX",
+      "executor_scope": "Codex no repositório de destino identificado",
+      "tool": "Codex CLI + testes locais e Git",
+      "environment": "Codex no checkout do PRJ PRJ-000008",
+      "context_mode": "B0_CODEX_COM_HANDOFF_EXPLICITO",
+      "source_refs": [
+        "estrategias/EA-000000-000034-implantacao-sciv-sob-demanda-novos-projetos.md",
+        "AUTONOMOUS_STRATEGY_REGISTRATION_POLICY.md",
+        "EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/ordem-dos-advogados/adaptadores/chatgpt/INSTRUCOES.md",
+      "routing_action_id": "CODE_REFACTOR",
+      "authorization_ref": "REQ-GLOBAL-20261011-001",
+      "preconditions": [
+        "Versão do PRJ/EA/F e fonte canônica verificadas",
+        "Ferramenta/executor e mandato efetivos confirmados",
+        "Classificação, catálogo de ação, PEP e gasto validados antes de qualquer escrita"
+      ],
+      "verification": "Leitura remota/verificação independente proporcional ao efeito e relatório persistido",
+      "completion_gate": "F-000000-000034-006_EVIDENCE_VERIFIED",
+      "fallback": "Não alterar executor, ambiente ou permissões sem nova classificação e autorização",
+      "on_block": "Registrar estado BLOCKED ou WAITING_HUMAN_ACTION, causa/owner e prosseguir somente ações independentes autorizadas",
+      "cost_class": "UNKNOWN",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    }
+  },
+  "global_catalog": {
+    "blob_sha": "f400c10729bb9bac77833d455539a5221a3178f7",
+    "source": "https://github.com/thiagoba2004/governanca-geral-modelos-ia/blob/main/policies/EXECUTOR_ACTION_CATALOG.json",
+    "actions": [
+      {
+        "action_id": "CODE_REFACTOR",
+        "required_executor": "CODEX",
+        "description": "Alterar código interdependente em múltiplos arquivos e branches",
+        "priority": "AUTHORIZATION_AND_SAFETY_FIRST",
+        "override_policy": "EXPLICIT_HUMAN_ONLY"
+      },
+      {
+        "action_id": "TEST_EXECUTION",
+        "required_executor": "CODEX",
+        "description": "Executar e depurar suítes de teste no ambiente de desenvolvimento",
+        "priority": "AUTHORIZATION_AND_SAFETY_FIRST",
+        "override_policy": "EXPLICIT_HUMAN_ONLY"
+      }
+    ]
+  },
+  "local_catalog": "governanca/EXECUTOR_ACTION_CATALOG.json",
+  "local_inherited_route": "inherit_global=true; PROJECT_MULTIFILE_CODE=CODEX",
+  "runtime_interception_claimed": false,
+  "authorization": "REQ-000008-20261016-006 / explicit current-session user request",
+  "review": "S1_INTERNO_NAO_SENSIVEL_REVIEWED_PUBLICABLE"
+}

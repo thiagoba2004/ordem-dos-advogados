@@ -1,0 +1,14 @@
+test_external_adapter_bytes_and_idempotence (test_sciv_disabled_provision.FilesystemTests.test_external_adapter_bytes_and_idempotence) ... ok
+test_hardlink_physical (test_sciv_disabled_provision.FilesystemTests.test_hardlink_physical) ... ok
+test_idempotence_and_byte_readback (test_sciv_disabled_provision.FilesystemTests.test_idempotence_and_byte_readback) ... ok
+test_interruption_and_reconciliation (test_sciv_disabled_provision.FilesystemTests.test_interruption_and_reconciliation) ... ok
+test_junction_physical (test_sciv_disabled_provision.FilesystemTests.test_junction_physical) ... ok
+test_parent_file_rejected_before_mutation (test_sciv_disabled_provision.FilesystemTests.test_parent_file_rejected_before_mutation) ... ok
+test_path_traversal_and_ambiguous_windows_names (test_sciv_disabled_provision.FilesystemTests.test_path_traversal_and_ambiguous_windows_names) ... ok
+test_reparse_flag_fail_closed (test_sciv_disabled_provision.FilesystemTests.test_reparse_flag_fail_closed) ... ok
+test_symlink_physical (test_sciv_disabled_provision.FilesystemTests.test_symlink_physical) ... skipped 'OS_SYMLINK_UNAVAILABLE winerror=1314'
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.097s
+
+OK (skipped=1)

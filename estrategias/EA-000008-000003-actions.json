@@ -72,13 +72,15 @@
         "Não executar CODEX/HUMAN por CHAT; nenhum B8/C3/PEP live presumido",
         "F001 SCIV_ADMISSAO_REGISTRADA e autorizações/gates posteriores verificados"
       ],
-      "verification": "Gate com evidência e readback proporcional, PASS/FAIL/ERROR/SKIP separados e limites declarados",
+      "verification": "Readback bytes/idempotencia e testes finais 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico. Gate Rota B/SCIV e matriz PASS. Publicacao remota pendente; nenhuma ativacao.",
       "completion_gate": "CAIXAS_VERSIONADAS",
       "fallback": "BLOCKED/WAITING_HUMAN_ACTION sem mudança de executor",
       "on_block": "Registrar impedimento/owner e prosseguir só em ações independentes",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "VERIFIED",
+      "verified_scope": "LOCAL_TECHNICAL_WITH_ENV_LIMITATION_PENDING_GIT_PUBLICATION",
+      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md"
     },
     {
       "action_key": "ACT-000008-000003-003",
@@ -106,13 +108,15 @@
         "Não executar CODEX/HUMAN por CHAT; nenhum B8/C3/PEP live presumido",
         "F001 SCIV_ADMISSAO_REGISTRADA e autorizações/gates posteriores verificados"
       ],
-      "verification": "Gate com evidência e readback proporcional, PASS/FAIL/ERROR/SKIP separados e limites declarados",
+      "verification": "Readback bytes/idempotencia e testes finais 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico. Gate Rota B/SCIV e matriz PASS. Publicacao remota pendente; nenhuma ativacao.",
       "completion_gate": "INSTRUCOES_VERSIONADAS",
       "fallback": "BLOCKED/WAITING_HUMAN_ACTION sem mudança de executor",
       "on_block": "Registrar impedimento/owner e prosseguir só em ações independentes",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "VERIFIED",
+      "verified_scope": "LOCAL_TECHNICAL_WITH_ENV_LIMITATION_PENDING_GIT_PUBLICATION",
+      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md"
     },
     {
       "action_key": "ACT-000008-000003-004",
@@ -140,13 +144,15 @@
         "Não executar CODEX/HUMAN por CHAT; nenhum B8/C3/PEP live presumido",
         "F001 SCIV_ADMISSAO_REGISTRADA e autorizações/gates posteriores verificados"
       ],
-      "verification": "Gate com evidência e readback proporcional, PASS/FAIL/ERROR/SKIP separados e limites declarados",
+      "verification": "Readback bytes/idempotencia e testes finais 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico. Gate Rota B/SCIV e matriz PASS. Publicacao remota pendente; nenhuma ativacao.",
       "completion_gate": "SCIV_REPO_VERIFICADO",
       "fallback": "BLOCKED/WAITING_HUMAN_ACTION sem mudança de executor",
       "on_block": "Registrar impedimento/owner e prosseguir só em ações independentes",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "VERIFIED",
+      "verified_scope": "LOCAL_TECHNICAL_WITH_ENV_LIMITATION_PENDING_GIT_PUBLICATION",
+      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md"
     },
     {
       "action_key": "ACT-000008-000003-005",

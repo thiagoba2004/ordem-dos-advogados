@@ -18,3 +18,8 @@ Sete ações tipadas estão em estrategias/EA-000008-000003-actions.json; F001 C
 ## Checkpoint F001 — registro dual verificado em 15/10/2026
 
 G0 confirmou os commits de registro local `012bac1fcac53f426b04b1a3a82e4c8c5d7a748d` e global `93f041df9a514c19a03cb612eb11fb9cced5f9e1`, com readback de ambas as fontes. `ACT-000008-000003-001=VERIFIED_DOCUMENTARY_DUAL`; gate `SCIV_ADMISSAO_REGISTRADA=PASS` somente documental, sem operação SCIV. Recibo: `auditorias/EA-000008-000003-F001-registro-dual-2026-10-15.md`. F002 passa a próximo executor CODEX Local PRJ-000008; F003/F004 CODEX pendentes, F005 HUMAN e F006 CHAT/contexto pendentes. Site EA-000008-000002 permanece principal e bloqueado por Pages; SCIV desabilitado.
+
+
+## Checkpoint tecnico F002-F004 - 16/10/2026
+
+Provisao ON_DEMAND enabled=false e bloco integral SCIV aplicados; testes finais 275 PASS, 0 FAIL, 0 ERROR e 2 SKIP fisicos de symlink. Gate Rota B/SCIV e matriz atual PASS. Escopo local com limitacao ambiental, publicacao/readback remoto pendentes neste checkpoint. Relatorio: auditorias/EA-000008-000003-codex-f002-f004.md. Site EA-000008-000002 preservada; F005 HUMAN/F006 CHAT e seguranca fisica pendentes. Sem ativacao ou mudanca de Pages.

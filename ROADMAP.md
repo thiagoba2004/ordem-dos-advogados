@@ -50,3 +50,8 @@ Pedido REQ-000008-20261015-005; mandato global REQ-GLOBAL-20261011-001, F006 ACT
 ### Checkpoint F001 SCIV — Registro dual verificado (15/10/2026)
 
 F001 SCIV_ADMISSAO_REGISTRADA = PASS_DOCUMENTARY_DUAL_GITHUB_READBACK: criação local 012bac1fcac53f426b04b1a3a82e4c8c5d7a748d; índice global 93f041df9a514c19a03cb612eb11fb9cced5f9e1; relatório auditorias/EA-000008-000003-F001-registro-dual-2026-10-15.md. Próxima F002 ACT-002 CODEX Local no PRJ-000008, sem substituir executor. SCIV enabled=false, Site EA-000008-000002 principal bloqueado por Pages, sem alteração docs/; F002–F006 não executadas, segurança de symlink e C3/B1/B8 não verificados.
+
+
+## Checkpoint tecnico F002-F004 - 16/10/2026
+
+Provisao ON_DEMAND enabled=false e bloco integral SCIV aplicados; testes finais 275 PASS, 0 FAIL, 0 ERROR e 2 SKIP fisicos de symlink. Gate Rota B/SCIV e matriz atual PASS. Escopo local com limitacao ambiental, publicacao/readback remoto pendentes neste checkpoint. Relatorio: auditorias/EA-000008-000003-codex-f002-f004.md. Site EA-000008-000002 preservada; F005 HUMAN/F006 CHAT e seguranca fisica pendentes. Sem ativacao ou mudanca de Pages.
