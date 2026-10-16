@@ -55,3 +55,8 @@ F001 SCIV_ADMISSAO_REGISTRADA = PASS_DOCUMENTARY_DUAL_GITHUB_READBACK: criação
 ## Checkpoint tecnico F002-F004 - 16/10/2026
 
 Provisao ON_DEMAND enabled=false e bloco integral SCIV aplicados; testes finais 275 PASS, 0 FAIL, 0 ERROR e 2 SKIP fisicos de symlink. Gate Rota B/SCIV e matriz atual PASS. Escopo local com limitacao ambiental, publicacao/readback remoto pendentes neste checkpoint. Relatorio: auditorias/EA-000008-000003-codex-f002-f004.md. Site EA-000008-000002 preservada; F005 HUMAN/F006 CHAT e seguranca fisica pendentes. Sem ativacao ou mudanca de Pages.
+
+
+### Publicacao e readback F002-F004 - 16/10/2026
+
+Commit ede6d885290a76718280f92d09c27c12bb7e847f publicado em main por push normal; 26 arquivos do manifesto relidos remotamente e conferidos por bytes/SHA256/Git blob. CAIXAS_VERSIONADAS e INSTRUCOES_VERSIONADAS PASS; SCIV_REPO_VERIFICADO PASS_WITH_ENV_LIMITATION_REPOSITORY_SCOPE. Recibo: auditorias/EA-000008-000003-publicacao-readback.json. F005 HUMAN e F006 CHAT/contexto real pendentes; G0 deve reconciliar ACT010. Dois SKIPs fisicos nao aprovados, enabled=false, Site/Pages preservados.

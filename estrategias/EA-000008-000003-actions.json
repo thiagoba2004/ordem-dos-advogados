@@ -72,15 +72,16 @@
         "Não executar CODEX/HUMAN por CHAT; nenhum B8/C3/PEP live presumido",
         "F001 SCIV_ADMISSAO_REGISTRADA e autorizações/gates posteriores verificados"
       ],
-      "verification": "Readback bytes/idempotencia e testes finais 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico. Gate Rota B/SCIV e matriz PASS. Publicacao remota pendente; nenhuma ativacao.",
+      "verification": "Commit ede6d885290a76718280f92d09c27c12bb7e847f publicado e conteudo remoto conferido por bytes/SHA256/Git blob. 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico; sem ativacao.",
       "completion_gate": "CAIXAS_VERSIONADAS",
       "fallback": "BLOCKED/WAITING_HUMAN_ACTION sem mudança de executor",
       "on_block": "Registrar impedimento/owner e prosseguir só em ações independentes",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
       "status": "VERIFIED",
-      "verified_scope": "LOCAL_TECHNICAL_WITH_ENV_LIMITATION_PENDING_GIT_PUBLICATION",
-      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md"
+      "verified_scope": "PUBLISHED_REPOSITORY_WITH_ENV_LIMITATION",
+      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md",
+      "publication_readback_ref": "auditorias/EA-000008-000003-publicacao-readback.json"
     },
     {
       "action_key": "ACT-000008-000003-003",
@@ -108,15 +109,16 @@
         "Não executar CODEX/HUMAN por CHAT; nenhum B8/C3/PEP live presumido",
         "F001 SCIV_ADMISSAO_REGISTRADA e autorizações/gates posteriores verificados"
       ],
-      "verification": "Readback bytes/idempotencia e testes finais 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico. Gate Rota B/SCIV e matriz PASS. Publicacao remota pendente; nenhuma ativacao.",
+      "verification": "Commit ede6d885290a76718280f92d09c27c12bb7e847f publicado e conteudo remoto conferido por bytes/SHA256/Git blob. 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico; sem ativacao.",
       "completion_gate": "INSTRUCOES_VERSIONADAS",
       "fallback": "BLOCKED/WAITING_HUMAN_ACTION sem mudança de executor",
       "on_block": "Registrar impedimento/owner e prosseguir só em ações independentes",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
       "status": "VERIFIED",
-      "verified_scope": "LOCAL_TECHNICAL_WITH_ENV_LIMITATION_PENDING_GIT_PUBLICATION",
-      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md"
+      "verified_scope": "PUBLISHED_REPOSITORY_WITH_ENV_LIMITATION",
+      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md",
+      "publication_readback_ref": "auditorias/EA-000008-000003-publicacao-readback.json"
     },
     {
       "action_key": "ACT-000008-000003-004",
@@ -144,15 +146,16 @@
         "Não executar CODEX/HUMAN por CHAT; nenhum B8/C3/PEP live presumido",
         "F001 SCIV_ADMISSAO_REGISTRADA e autorizações/gates posteriores verificados"
       ],
-      "verification": "Readback bytes/idempotencia e testes finais 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico. Gate Rota B/SCIV e matriz PASS. Publicacao remota pendente; nenhuma ativacao.",
+      "verification": "Commit ede6d885290a76718280f92d09c27c12bb7e847f publicado e conteudo remoto conferido por bytes/SHA256/Git blob. 275 PASS, 0 FAIL, 0 ERROR, 2 SKIP symlink fisico; sem ativacao.",
       "completion_gate": "SCIV_REPO_VERIFICADO",
       "fallback": "BLOCKED/WAITING_HUMAN_ACTION sem mudança de executor",
       "on_block": "Registrar impedimento/owner e prosseguir só em ações independentes",
       "cost_class": "NO_NEW_SPENDING",
       "spend_limit": 0,
       "status": "VERIFIED",
-      "verified_scope": "LOCAL_TECHNICAL_WITH_ENV_LIMITATION_PENDING_GIT_PUBLICATION",
-      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md"
+      "verified_scope": "PUBLISHED_REPOSITORY_WITH_ENV_LIMITATION",
+      "evidence_ref": "auditorias/EA-000008-000003-codex-f002-f004.md",
+      "publication_readback_ref": "auditorias/EA-000008-000003-publicacao-readback.json"
     },
     {
       "action_key": "ACT-000008-000003-005",

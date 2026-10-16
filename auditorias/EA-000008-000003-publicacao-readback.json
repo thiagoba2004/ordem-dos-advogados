@@ -1,0 +1,211 @@
+{
+  "project_code": "PRJ-000008",
+  "strategy_code": "EA-000008-000003",
+  "date": "2026-10-16",
+  "technical_commit": "ede6d885290a76718280f92d09c27c12bb7e847f",
+  "source": "GITHUB_CONNECTOR_IMMUTABLE_COMMIT_CONTENT_READBACK",
+  "files_verified": 26,
+  "files": [
+    {
+      "path": "PROJECT_STATE.json",
+      "blob_sha": "cd39b7bac3578168941db5ffb56a496e53bb72f1",
+      "expected_sha256": "d0cb43e1131fefe8bdc680006eba54ec51dd724dfc8b0254628fc1f8489fb3cc",
+      "git_bytes": 5849,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "REQUEST_LOG.jsonl",
+      "blob_sha": "e075e0cef9cf6196c264beb40e737960ac7ba1a1",
+      "expected_sha256": "2c49b36cc0b1a5c189263a6bff64842cd9a3c063ca1426176fb7b53867076c4d",
+      "git_bytes": 5487,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "ROADMAP.md",
+      "blob_sha": "45722171d1f7ddce2ec2beb43e94897702f01d09",
+      "expected_sha256": "0fde0fac65845a29bd9d9472953665fd188bca3f9abc1e49e4b58b34c3ffd79e",
+      "git_bytes": 4775,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "STRATEGY_LOG.jsonl",
+      "blob_sha": "1036625a027be3ee20db77e4506303a58442c9fa",
+      "expected_sha256": "ca4e5b7cef47edfd9dd3079728e2a820058102291ad25d0fc2f618b3415b6306",
+      "git_bytes": 6627,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "adaptadores/chatgpt/INSTRUCOES.md",
+      "blob_sha": "1311c26dded00ebb4913de9aa4ec34bbd3b45d9f",
+      "expected_sha256": "68c9d7df3dc74939566a48d8085ad4ae71972cd9adfd38be734c4c1177cd6667",
+      "git_bytes": 6606,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-codex-f002-f004.md",
+      "blob_sha": "0e54e39bea38042d166a6080421ba9fba17faccf",
+      "expected_sha256": "9b2911ff28dc8bc5f8feaf6d667dbfaa73b14983a47a9799566c12c70d723096",
+      "git_bytes": 7109,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/authorization-readback.json",
+      "blob_sha": "7a70d99cd75beb5d6369701636ba852e4b32d432",
+      "expected_sha256": "0d16b6e4dfb34de6c237938a1c0ecb8e3aed69bd20952a7760514a3d59d82321",
+      "git_bytes": 5456,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/current-matrix.log",
+      "blob_sha": "3f8204cfd705d42bb3948c47a04d6fb7d3a6ee32",
+      "expected_sha256": "9c4c107423b77449c3468f49673983f860cac54527c5bcade8358308dc458feb",
+      "git_bytes": 357,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/filesystem.log",
+      "blob_sha": "56a3c458f5dd203a938880608083270c755be2b6",
+      "expected_sha256": "0b0fb849fb6929664617ee89facb93af8c5af6b3caf1d0d0e1b068f1afd94874",
+      "git_bytes": 1248,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/generator-regression.log",
+      "blob_sha": "8d01d68fed5f123e46c2c63e7a348b7ec054483f",
+      "expected_sha256": "cafd17bb397dbf30bc102794d502bd2ed41eb1ead8fd52ea65bfea648e64f1e0",
+      "git_bytes": 14322,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/pep-offline.log",
+      "blob_sha": "77ba1ef43982f741d0f778c42be3cee6ec9352ff",
+      "expected_sha256": "2352b7c4ba8eeed59d3c538c484c7d4241fb400a971e897156f3aa29d3de9847",
+      "git_bytes": 1443,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/prepare.json",
+      "blob_sha": "d8b2057d53377f9c818d16a6f95bd12c51a51c80",
+      "expected_sha256": "e1a694784c167b872c221c3494666ba83ba6b72a31fab078c22c1d36aa773218",
+      "git_bytes": 1475,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/provision-readback.log",
+      "blob_sha": "d59b9fbfdb5b8aec795f1c898b0f61c624cb9448",
+      "expected_sha256": "df4565c4f0e33981186aeefdc024455fe78a59c8cb3d049e75cb0eecef09ca59",
+      "git_bytes": 1484,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/results.json",
+      "blob_sha": "5a33a1165a5a9026538bf89d4a64ce312853f2e3",
+      "expected_sha256": "f21780b48457634509e0b7b1fec31e885b973088ec0b40bc4294f54e14383992",
+      "git_bytes": 2617,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/rota-b-sciv.log",
+      "blob_sha": "443f73aa45254ed1b97c413ff9fe4081d7dde577",
+      "expected_sha256": "9746e95a9b4c2cb0c8a2b988c903a968adcbe187f2e30294399622ecbfc50155",
+      "git_bytes": 1749,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "auditorias/EA-000008-000003-evidencias/sciv-regression.log",
+      "blob_sha": "6415fb450bf1aa9ae8dcfed3a843f4fbb3788197",
+      "expected_sha256": "98ebdffb4fc9bd99a375b8aee454e1cb738cdb87eb9750c9328782fe3a0ce65a",
+      "git_bytes": 20624,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "comunicados/SCIV_STATE.json",
+      "blob_sha": "23698d5ad7a939911ac82bd895a1a40cb9e17e2a",
+      "expected_sha256": "f26459e0b342bfaeae4af10de491d3d10c69763a1571970d02a1a59981425839",
+      "git_bytes": 527,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "comunicados/governanca-geral/historico/README.md",
+      "blob_sha": "926bb628272cf6ceee613a305f78adb5b7c60cd3",
+      "expected_sha256": "127f64c7abcaf9df3434f4b8b8e0e81ee1aaca4aeeca620d91007156f17ee46b",
+      "git_bytes": 597,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "comunicados/governanca-geral/mensagens/README.md",
+      "blob_sha": "dd9d02d66491ba0fcc8e83b001d965290969f84f",
+      "expected_sha256": "4ae272d50bc2a0f30929f219ee0c9e0c5ef398799805672b41cbbfdb914795c1",
+      "git_bytes": 597,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "comunicados/ia-especializada/historico/README.md",
+      "blob_sha": "5481163a3e689815d77b0857aec2b63e50fe4db2",
+      "expected_sha256": "60beccfe94ae6c4b0f6b23e496f641103da2cf93bba838dd867d4dfeffcb7709",
+      "git_bytes": 597,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "comunicados/ia-especializada/mensagens/README.md",
+      "blob_sha": "f83bf32b4c2e3dfdabf7df303fd0e3eab4398a5b",
+      "expected_sha256": "9ef67417d9956068aa8f2b33d54051ada7e88eb3628f60403357e279938a4b3e",
+      "git_bytes": 597,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "estrategias/EA-000008-000003-actions.json",
+      "blob_sha": "13ddebf401ea4bed053310b7ce2fe1ff041692e2",
+      "expected_sha256": "ef07eccdccb8fc9c9e5f7468f29bf82bf43449444f7f9a32ac13c6e927197fd5",
+      "git_bytes": 14267,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "estrategias/EA-000008-000003-sciv-sob-demanda.md",
+      "blob_sha": "0ee6e0ffef34910af972509ac02bd17f319c6541",
+      "expected_sha256": "42a95e8589d3375eab2660beea8f0c54428ab31352907d4e0a285525055590b9",
+      "git_bytes": 4855,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "tools/sciv_disabled_provision.py",
+      "blob_sha": "85b01326ae5d681178022cb628ce59bdbf444a90",
+      "expected_sha256": "58d781944f39c18360ab6621fe18a05656f5af53c4e3385198ef6fe5f3a76210",
+      "git_bytes": 7955,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "tools/sciv_technical_checks.py",
+      "blob_sha": "b6297e1465b14948bfe6cac6e2479887354b834b",
+      "expected_sha256": "8301cac818d64dfeaecb15f73a1f7e86f147498e0034156ed9845f776a00dc12",
+      "git_bytes": 3842,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    },
+    {
+      "path": "tools/test_sciv_disabled_provision.py",
+      "blob_sha": "7be2c974b07f76accc33c6a36029f64d5c98af69",
+      "expected_sha256": "51c6128ce860475addc163a5035ce3f311976f691bb5fbbb68f0f1e43b41b896",
+      "git_bytes": 4458,
+      "status": "REMOTE_UTF8_BYTES_SHA256_AND_GIT_BLOB_VERIFIED"
+    }
+  ],
+  "scope": "REPOSITORY_ONLY_WITH_ENV_LIMITATION",
+  "SCIV_enabled": false,
+  "operational_activation_allowed": false,
+  "test_counts": {
+    "PASS": 275,
+    "FAIL": 0,
+    "ERROR": 0,
+    "SKIP": 2
+  },
+  "gates": {
+    "CAIXAS_VERSIONADAS": "PASS",
+    "INSTRUCOES_VERSIONADAS": "PASS",
+    "SCIV_REPO_VERIFICADO": "PASS_WITH_ENV_LIMITATION_REPOSITORY_SCOPE"
+  },
+  "native_installation": "NOT_VERIFIED",
+  "B8_accepted": false,
+  "physical_symlink": "SKIP_NOT_PASS",
+  "global_acceptance": "NOT_INFERRED",
+  "receipt_own_commit": "TO_BE_VERIFIED_AFTER_PUBLICATION"
+}
